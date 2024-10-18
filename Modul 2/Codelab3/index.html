@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="style.css"> <!-- Hubungkan dengan file CSS eksternal -->
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Form Pendaftaran</h2>
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <input type="text" id="nama" placeholder="Nama" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea id="alamat" placeholder="Alamat Lengkap" required></textarea>
+        <button type="submit">Daftar</button>
+    </form>
+</div>
+
+<script src="script.js"></script> <!-- Hubungkan dengan file JavaScript eksternal -->
+</body>
+</html>
